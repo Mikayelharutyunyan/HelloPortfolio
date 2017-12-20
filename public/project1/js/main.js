@@ -20,8 +20,9 @@ setupWorld();
 function setupWorld() {
 	drawAxes();
 	// TODO
+	for(var i = 0; i < 20; i++){
 	addSphere({x : Math.random()*2+3, y : Math.random()*2+3, z: Math.random()*2+3, vx : Math.random()*2+3, vy : Math.random()*2+3, vz : Math.random()*2+3});
-
+	}
 }
 
 /*
