@@ -20,7 +20,7 @@ setupWorld();
 function setupWorld() {
 	drawAxes();
 	// TODO
-	addSphere({x : 10, y : 20, z: 30, vx : 1, vy : 2, vz : 3});
+	addSphere({x : Math.random()*2+3, y : Math.random()*2+3, z: Math.random()*2+3, vx : Math.random()*2+3, vy : Math.random()*2+3, vz : Math.random()*2+3});
 
 }
 
@@ -32,7 +32,6 @@ function setupWorld() {
  */
 function addSphere(params)
 {
-	for(var i = 0; i <20; i++){
 	// TODO
 	var meshTMP = new THREE.Mesh(geos.sphere, mats.sphere);
 	var obj = {
@@ -58,7 +57,6 @@ function addSphere(params)
 	scene.add(meshTMP)
 
 	spheres.push(obj);
-	} 
 	}
 
 
