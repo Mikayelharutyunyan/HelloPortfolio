@@ -42,6 +42,7 @@ for(var key in planets){
 	addSphere({
 		x : planets[key].distance,
 		vz : planets[key].velocity,
+		y : Math.tan(planets[key].tilt * (Math.PI / 180)) * planets[key].distance,
 		name : key
 	})
 	console.log(key);
