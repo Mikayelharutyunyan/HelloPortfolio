@@ -50,10 +50,10 @@ for(var key in planets){
 
 
 //------------------- END YOUR CODE
-	// scene.add(spotlight);
-	// scene.remove(light);
-	// scene.remove(ambientLight);
-	// scene.remove(background);
+	scene.add(sl);
+	scene.remove(light);
+	scene.remove(ambientLight);
+	scene.remove(background);
 }
 
 /*
