@@ -25,7 +25,7 @@ function main(){
 function setupWorld() {
 	//drawAxes();
 	
-	addSphere({y: 100, vx: 1})
+	//addSphere({y: 100, vx: 1})
 
 	loadPlanets()
 }
